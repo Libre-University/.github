@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Güvenlik açığı bildirimi
+    url: https://github.com/Libre-University/.github/blob/main/SECURITY.md
+    about: Güvenlik açıklarını herkese açık issue olarak bildirmeyin.
+  - name: Mimari öneri (ADR)
+    url: https://github.com/Libre-University/docs/tree/main/docs/adr
+    about: Mimariyi etkileyen öneriler docs reposunda ADR olarak tartışılır.

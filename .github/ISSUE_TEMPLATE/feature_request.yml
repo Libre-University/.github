@@ -1,0 +1,32 @@
+name: Özellik veya süreç önerisi
+description: Yeni bir özellik ya da üniversite sürecini önerin.
+labels: ["type:feature"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Hangi ihtiyaç veya sorun?
+      description: Mümkünse gerçek bir üniversite sürecinden örnek verin.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Önerilen çözüm
+    validations:
+      required: true
+  - type: input
+    id: module
+    attributes:
+      label: İlgili modül veya gereksinim (ör. FR-02, OBS)
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Değerlendirilen alternatifler
+  - type: dropdown
+    id: sensitive
+    attributes:
+      label: KVKK veya güvenlik etkisi var mı?
+      options: ["Hayır", "Evet", "Emin değilim"]
+    validations:
+      required: true
